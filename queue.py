@@ -11,8 +11,8 @@ class Queue:
     def enqueue(self, value):
         self.data.append(value)
     def dequeue(self):
-        return self.data.pop()
-        
+        return self.data.popleft()
+
 
 
         
